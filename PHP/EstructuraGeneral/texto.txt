@@ -1,0 +1,11 @@
+ASUNTO: 
+Envio de paquete
+MENSAJE: 
+El paquete solicitado fue enviado a su empresa, el dia sabado para poder ser evaluado, segun sus requerimientos de usted.
+ASUNTO: 
+RECEPCION DE PAQUETE
+MENSAJE: 
+Todo fue recibido correctamente.ASUNTO: 
+FUERA DE SERVICIO
+MENSAJE: 
+Temporalmente fuera de servicio
