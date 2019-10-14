@@ -1,9 +1,9 @@
 <?php
-	//enviar al navegador
+	/*enviar al navegador*/
 	//echo "Hello Word con AJAX";
 	//comprobar si se esta recibiendo y regresarlo
-	if(isset($_POST))
+	if(isset($_POST)) //isset es equivalente a exists
 	{
-		echo "Recibido: ". $_POST['username'];
+		echo "Recibidooooo: ". $_POST['username'];
 	}
 ?>

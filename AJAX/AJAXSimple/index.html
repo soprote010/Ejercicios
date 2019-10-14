@@ -18,7 +18,7 @@
 			Objeto.open('GET','backend.php', true);
 			//codifica los datos del navegador
 			Objeto.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-			//ver lo que viene del servidor
+			//ver lo que viene del servidor hacia el servidor
 			Objeto.onreadystatechange=function()
 			{
 				document.getElementById('title').innerHTML=Objeto.responseText;
@@ -27,14 +27,18 @@
 			*/
 			/*PARA ENVIAR DATOS DEL SERVIDOR*/
 			Objeto.open('POST','backend.php', true);
-			//codifica los datos del navegador
+			//codifica los datos del navegador hacia el servidor
 			Objeto.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 			//ver lo que viene del servidor
 			Objeto.onreadystatechange=function()
 			{
+				/*
+					para mostrar por consola utilizar
+					console.log(Object.responseText());
+				*/
 				document.getElementById('title').innerHTML=Objeto.responseText;
 			}
-			Objeto.send('username=Fazt');
+			Objeto.send('username=Dana');
 			
 		}
 	</script>
